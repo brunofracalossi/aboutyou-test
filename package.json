@@ -1,0 +1,23 @@
+{
+  "name": "aboutyou-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:at": "cypress run --config baseUrl=https://www.aboutyou.at"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunofracalossi/aboutyou-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunofracalossi/aboutyou-test/issues"
+  },
+  "homepage": "https://github.com/brunofracalossi/aboutyou-test#readme",
+  "devDependencies": {
+    "cypress": "^9.1.1"
+  }
+}
